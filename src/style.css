@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+.logo-img {
+  height: 2rem;
+}
+.try-free-btn {
+  height: 2.5rem;
+  width: 8rem;
+  border-radius: 2rem;
+  border: 2px solid hsl(321, 100%, 78%);
+  background: white;
+  color: hsl(321, 100%, 78%);
+  /* font-size: 1.2rem; */
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  padding: 3rem;
+}
+.top-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.top-p {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+.big-btn {
+  height: 3.5rem;
+  width: 17rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: 400;
+}
+.pc-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+.imgpc {
+  max-height: 80vh;
+  max-width: 80vw;
+}
+.stat {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+}
+.left-stat {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  padding: 2rem;
+}
+.right-stat {
+  padding: 2rem;
+}
+.icon-small {
+  height: 2rem;
+}
+.stat-info {
+  font-size: 4rem;
+  margin: 0.4rem 0;
+}
+
+.bottom-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+.bottom-png {
+  max-width: 40vw;
+}
+.png-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.even-cont {
+  justify-content: space-between;
+}
+.convo-text {
+  margin-left: 2rem;
+}
+.bottom-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.footer {
+  position: relative;
+  background-color: rgb(0, 37, 46);
+}
+.footer-img {
+  width: 100vw;
+}
